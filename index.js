@@ -8,7 +8,8 @@ import router from "./routes";
 //conexion a la bd mongo
 
 mongoose.Promise = global.Promise;
-const dbUrl =  'mongodb://localhost/dbsistema';
+//const dbUrl =  'mongodb://localhost/dbsistema';
+const dbUrl = "mongodb+srv://reneraesp:Autopropio0.@cluster0.cazyv.mongodb.net/dbsistema?retryWrites=true&w=majority";
 
 mongoose
   .connect(dbUrl, {
